@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tunamh-jax"
+version = "0.1.0"
+description = "JAX implementation of TunaMH and baseline exact/inexact minibatch Metropolis-Hastings samplers"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jax>=0.4.35",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "scipy>=1.11"]
+
+[project.scripts]
+tunamh = "tunamh_jax.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["tunamh_jax"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["error::RuntimeWarning"]
