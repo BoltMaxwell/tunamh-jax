@@ -7,6 +7,7 @@ name = "tunamh-jax"
 version = "0.1.0"
 description = "JAX implementation of TunaMH and baseline exact/inexact minibatch Metropolis-Hastings samplers"
 readme = "README.md"
+license = "Apache-2.0"
 requires-python = ">=3.11"
 dependencies = [
     "jax>=0.4.35",

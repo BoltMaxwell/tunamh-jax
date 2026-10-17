@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+title: tunamh-jax
+message: >-
+  This repository is a JAX port; the method and the original code belong to the
+  authors of the paper below. If you use this software, please cite that paper
+  (preferred-citation) and, if appropriate, the original code (references).
+type: software
+authors:
+  - family-names: Bolt
+    given-names: Maxwell
+    affiliation: Purdue University
+repository-code: https://github.com/BoltMaxwell/tunamh-jax
+license: Apache-2.0
+version: 0.1.0
+date-released: "2026-10-17"
+preferred-citation:
+  type: conference-paper
+  title: "Asymptotically Optimal Exact Minibatch Metropolis-Hastings"
+  authors:
+    - family-names: Zhang
+      given-names: Ruqi
+    - family-names: Cooper
+      given-names: A. Feder
+    - family-names: De Sa
+      given-names: Christopher
+  collection-title: "Advances in Neural Information Processing Systems"
+  collection-type: proceedings
+  conference:
+    name: "NeurIPS 2020"
+  year: 2020
+  volume: 33
+  start: 19500
+  end: 19510
+  publisher:
+    name: "Curran Associates, Inc."
+  editors:
+    - family-names: Larochelle
+      given-names: H.
+    - family-names: Ranzato
+      given-names: M.
+    - family-names: Hadsell
+      given-names: R.
+    - family-names: Balcan
+      given-names: M.F.
+    - family-names: Lin
+      given-names: H.
+  url: "https://proceedings.neurips.cc/paper_files/paper/2020/file/e2a7555f7cabd6e31aef45cb8cda4999-Paper.pdf"
+references:
+  - type: software
+    title: "TunaMH reference implementation (Julia)"
+    authors:
+      - family-names: Zhang
+        given-names: Ruqi
+      - family-names: Cooper
+        given-names: A. Feder
+      - family-names: De Sa
+        given-names: Christopher
+    repository-code: https://github.com/ruqizhang/tunamh
+    notes: The upstream repository this port was made from; it carries no license.

@@ -1,0 +1,20 @@
+tunamh-jax
+Copyright 2026 Maxwell Bolt
+
+Licensed under the Apache License, Version 2.0; see the LICENSE file.
+
+This repository is a JAX port of the TunaMH reference implementation (Julia),
+    https://github.com/ruqizhang/tunamh
+by Ruqi Zhang, A. Feder Cooper and Christopher De Sa, which accompanies
+
+    Zhang, Cooper and De Sa. "Asymptotically Optimal Exact Minibatch
+    Metropolis-Hastings." NeurIPS 2020, vol. 33, pp. 19500-19510.
+
+The method, the experimental design and the original code are theirs; this
+repository ports them and does not introduce them. The upstream commits
+survive in this repository's git history. The original repository carries no
+license of its own; this port is released under the Apache License 2.0 with
+the knowledge and agreement of its authors (Ruqi Zhang, October 2026).
+
+The port was written with the assistance of Claude Code (Anthropic).
+If you use this software, please cite the paper above (see CITATION.cff).

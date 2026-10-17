@@ -8,7 +8,8 @@ benchmarked against, on the paper's MNIST 7-vs-9 logistic regression task.
 > NeurIPS 2020 (Spotlight).
 
 > [!NOTE]
-> This repository began as the authors' Julia reference implementation. The port
+> This repository began as the authors' Julia reference implementation,
+> [ruqizhang/tunamh](https://github.com/ruqizhang/tunamh). The port
 > to JAX was carried out with [Claude Code](https://claude.com/claude-code),
 > which rewrote the samplers, built the test suite, and produced the benchmark
 > numbers below. The Julia sources are no longer present; they remain in this
@@ -198,10 +199,22 @@ tests/
 ## Citation
 
 ```bibtex
-@inproceedings{zhang2020tunamh,
+@inproceedings{NEURIPS2020_e2a7555f,
   title     = {Asymptotically Optimal Exact Minibatch Metropolis-Hastings},
   author    = {Zhang, Ruqi and Cooper, A. Feder and De Sa, Christopher},
   booktitle = {Advances in Neural Information Processing Systems},
+  editor    = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
+  pages     = {19500--19510},
+  publisher = {Curran Associates, Inc.},
+  volume    = {33},
   year      = {2020},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2020/file/e2a7555f7cabd6e31aef45cb8cda4999-Paper.pdf}
 }
 ```
+
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE). The upstream
+code, [ruqizhang/tunamh](https://github.com/ruqizhang/tunamh), carries no
+license of its own; this port is released with the knowledge and agreement of
+its authors.
